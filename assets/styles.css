@@ -149,3 +149,11 @@ a.highlight{
     border-radius: 4px;
     margin: 10px 0;
 }
+
+.delete-btn{
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 2px 5px;
+    float: right;
+    color: #FF5722 !important;
+}
