@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = "6scs3yz5w!=8x&^q%17h2e@ih3zudgk3zz!n8nf9we+8+4=l$v"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
@@ -121,6 +121,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = "/static/"
+
+DEFAULT_AUTO_FIELD = "django.db.models.AutoField"
 
 # directory name for static files (CSS, JavaScript, Images)
 STATICFILES_DIRS = (os.path.join(BASE_DIR, "assets"),)
